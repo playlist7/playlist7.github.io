@@ -31,7 +31,7 @@ const app = {
         {
             name: "Lời mở đầu",
             singer: "Nhóm công nghệ thông tin-chủ nghĩa xã hội",
-            path: "./assets/music/greeting.mp3",
+            path: "./assets/music/start1.mp3",
             image: "./assets/img/greeting.jpeg",
           },
           {
