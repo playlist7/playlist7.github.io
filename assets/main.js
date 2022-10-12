@@ -28,12 +28,6 @@ const app = {
   // (1/2) Uncomment the line below to use localStorage
   // config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
        songs: [
-        {
-            name: "Lời mở đầu",
-            singer: "Nhóm công nghệ thông tin-chủ nghĩa xã hội",
-            path: "./assets/music/start1.mp3",
-            image: "./assets/img/greeting.jpeg",
-          },
           {
             name: "1.1. Khái niệm gia đình",
             singer: "Phước Khang",
@@ -112,13 +106,6 @@ const app = {
             path: "./assets/music/3.2.m4a",
             image:
               "./assets/img/3.2.jpg"
-          },
-          {
-            name: "Lời kết",
-            singer: "Cả nhóm",
-            path: "./assets/music/endnew.mp3",
-            image:
-              "./assets/img/Thank-you.jpg"
           },
       ],  
   setConfig: function (key, value) {
